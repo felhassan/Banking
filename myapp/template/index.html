@@ -1,0 +1,17 @@
+<!Doctype html>
+<head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=width-device,initial-scale=1.0">
+    <title>document</title>
+</head>
+<body>
+<h1>we are inside template</h1>
+<table>
+    <th>Name </th>
+        {% for customuser in customusers %}
+        <tr><td>{{customuser.name}}</td></tr>
+        {%endfor%}
+</table>
+</body>
+</html>
